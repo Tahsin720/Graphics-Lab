@@ -1,3 +1,4 @@
+#define GLUT_DISABLE_ATEXIT_HACK
 #include <stdio.h>
 #include <time.h>
 #include <windows.h>
@@ -48,7 +49,7 @@ void Write(char *string){  //This function will write the string
 
 // Initialize
 void init(void){
-    glClearColor(0.1,0,0.5,0.6);
+    glClearColor(1,0.6,0.3,0);
     glEnable(GL_DEPTH_TEST);
 }
 
@@ -183,7 +184,7 @@ void highest_Score(){
    }
 
    // print in the Game status Screen
-    glColor3f(1, 0, 0); //red
+    glColor3f(0.4, 0.2, 0.7); //red
     glRasterPos2f(5, 0);
 
     char str[10];
@@ -328,7 +329,7 @@ void Run(int value){
     }
 
     //Set the timer
-    glutTimerFunc(150, Run, 0);
+    glutTimerFunc(500, Run, 0);
 }
 
 void Special(int key, int x, int y){

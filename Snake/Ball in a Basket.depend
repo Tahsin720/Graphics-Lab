@@ -223,7 +223,7 @@
 1301111156 c:\program files (x86)\codeblocks\mingw\include\oleidl.h
 	<objfwd.h>
 
-1625642671 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
+976692172 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
 	<windows.h>
 	<GL/gl.h>
 	<GL/glu.h>
@@ -233,4 +233,10 @@
 1301111164 c:\program files (x86)\codeblocks\mingw\include\gl\glu.h
 	<stddef.h>
 	<GL/gl.h>
+
+1632328014 source:d:\study\212-summer\graphis_lab\graphics-lab\snake\main.cpp
+	<stdio.h>
+	<time.h>
+	<windows.h>
+	<gl/glut.h>
 
